@@ -1,0 +1,9 @@
+# Python Dependencies
+
+numpy
+pandas
+scikit-learn
+transformers
+PyMuPDF
+FAISS
+openai
