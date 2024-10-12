@@ -12,7 +12,7 @@ def main():
     # Example usage
 
     # List of PDF paths (Update with your PDF paths)
-    pdf_paths = ['your_pdf_path.pdf']
+    pdf_paths = ['https://github.com/Anishvjy/Multilingual-pdf-rag-system/blob/main/data/sample_pdfs_rag/sample_pdfs/bn/Blue_Ocean_Strategy%2C_Expanded_Edition_How_to_Create_Uncontested-2.pdf']
 
     # Initialize an empty string to hold all extracted text
     all_extracted_text = ""
