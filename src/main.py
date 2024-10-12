@@ -2,10 +2,11 @@
 """Main script for Multilingual PDF RAG System"""
 
 import os
-from text_extraction import extract_text
-from preprocessing import clean_text, detect_language, chunk_text
-from embedding_index import add_documents_to_index
-from retrieval import initialize_bm25, answer_query_with_memory
+from src.text_extraction import extract_text
+from src.preprocessing import clean_text, detect_language, chunk_text
+from src.embedding_index import add_documents_to_index
+from src.retrieval import initialize_bm25, answer_query_with_memory
+
 
 def main():
     # Example usage
